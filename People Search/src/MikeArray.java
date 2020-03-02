@@ -35,8 +35,7 @@ public class MikeArray<E> implements List<E>{
 
 	@Override
 	public boolean isEmpty() {
-		// TODO Auto-generated method stub
-		return false;
+		return size == 0;
 	}
 
 	@Override
@@ -119,13 +118,12 @@ public class MikeArray<E> implements List<E>{
 	@Override
 	public E set(int index, E element) {
 		elementData[index] = element;
-		return null;
+		return element;
 	}
 
 	@Override
 	public void add(int index, E element) {
 		// TODO Auto-generated method stub
-		
 	}
 
 	@Override
