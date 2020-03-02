@@ -32,18 +32,6 @@ public class PeopleSearchGUI extends GBFrame{
 	public PeopleSearchGUI() {
 		peopleList = new MikeArray<Person>();
 		
-		Person p1 = new Person(17,"Mike");
-		Person p2 = new Person(10,"Noah");
-		Person p3 = new Person(69,"Ben");
-		Person p4 = new Person(0,"asdf");
-		Person p5 = new Person(0,"Sam");
-		
-		peopleList.add(p1);
-		peopleList.add(p2);
-		peopleList.add(p3);
-		peopleList.add(p4);
-		peopleList.add(p5);
-		
 		setSize(400,400);
 		setTitle("People Search");
 		setVisible(true);

@@ -23,6 +23,7 @@ public class EditPersonDialog extends GBDialog {
 			if(response == JOptionPane.YES_OPTION) {
 				//delete
 				list.remove(list.indexOf(current));
+				System.out.println(list.size() + " " + list.realSize());
 				dispose();
 			}
 		}else if(button == updateButton) {

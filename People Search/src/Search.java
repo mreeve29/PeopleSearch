@@ -23,12 +23,10 @@ public class Search<T extends Comparable<T>> {
 			comparisons++;
 			if(list.get(n).compareTo(item) < 0) {
 				//right half
-				System.out.println("right " + list.get(n));
 				first = n + 1;
 			}else if (list.get(n).compareTo(item) > 0) {
 				//left half
-				System.out.println("left " + list.get(n));
-				last = n -1;
+				last = n - 1;
 			}else {
 				//equals
 				return list.get(n);

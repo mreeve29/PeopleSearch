@@ -28,6 +28,10 @@ public class MikeArray<E> implements List<E>{
 	public int size() {
 		return size;
 	}
+	
+	public int realSize() {
+		return elementData.length;
+	}
 
 	@Override
 	public boolean isEmpty() {
